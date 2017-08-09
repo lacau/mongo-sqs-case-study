@@ -25,8 +25,9 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-actuator')
     compile('org.springframework.boot:spring-boot-starter-data-mongodb')
     compile('org.springframework.boot:spring-boot-starter-web')
-    // https://mvnrepository.com/artifact/org.projectlombok/lombok
-    compile group: 'org.projectlombok', name: 'lombok', version: '1.16.18'
+    compile('org.projectlombok:lombok:1.16.18')
+
+    compile('org.springframework.cloud:spring-cloud-aws-messaging:1.2.1.RELEASE')
 
 
     testCompile('org.springframework.boot:spring-boot-starter-test')

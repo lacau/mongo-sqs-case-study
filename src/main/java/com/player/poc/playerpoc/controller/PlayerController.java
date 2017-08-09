@@ -55,4 +55,17 @@ public class PlayerController {
         //
         return ResponseEntity.ok().build();
     }
+
+    @RequestMapping(path = "/player/msg", method = RequestMethod.POST)
+    public @ResponseBody
+    Player postMessage(@RequestBody Player player) {
+        playerServiceMongoImpl.sendMessage(player);
+        return player;
+    }
+
+    @RequestMapping(path = "/player/count-msg", method = RequestMethod.GET)
+    public @ResponseBody
+    String getMessagesCount() {
+        return playerServiceMongoImpl.getMessagesCount();
+    }
 }

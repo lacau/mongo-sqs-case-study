@@ -15,4 +15,8 @@ public interface PlayerService {
     List<Player> findAll();
 
     void removeAll();
+
+    void sendMessage(Player player);
+
+    String getMessagesCount();
 }
