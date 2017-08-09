@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.3 <$Revision: 1757674 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8081
+
+Document Path:          /mongo/player
+Document Length:        43 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   11.378 seconds
+Complete requests:      100000
+Failed requests:        0
+Total transferred:      20300000 bytes
+Total body sent:        16500000
+HTML transferred:       4300000 bytes
+Requests per second:    8788.73 [#/sec] (mean)
+Time per request:       113.782 [ms] (mean)
+Time per request:       0.114 [ms] (mean, across all concurrent requests)
+Transfer rate:          1742.30 [Kbytes/sec] received
+                        1416.15 kb/s sent
+                        3158.45 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0   86 329.5      0    3240
+Processing:     0   19  42.8     12    1662
+Waiting:        0   18  42.6     12    1662
+Total:          0  105 347.0     13    3540
+
+Percentage of the requests served within a certain time (ms)
+  50%     13
+  66%     16
+  75%     18
+  80%     21
+  90%     36
+  95%   1027
+  98%   1048
+  99%   1241
+ 100%   3540 (longest request)

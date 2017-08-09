@@ -9,37 +9,37 @@ Server Software:
 Server Hostname:        localhost
 Server Port:            8081
 
-Document Path:          /player
+Document Path:          /mongo/player
 Document Length:        43 bytes
 
 Concurrency Level:      1000
-Time taken for tests:   0.868 seconds
-Complete requests:      5000
+Time taken for tests:   6.473 seconds
+Complete requests:      50000
 Failed requests:        0
-Total transferred:      1015000 bytes
-Total body sent:        795000
-HTML transferred:       215000 bytes
-Requests per second:    5757.70 [#/sec] (mean)
-Time per request:       173.681 [ms] (mean)
-Time per request:       0.174 [ms] (mean, across all concurrent requests)
-Transfer rate:          1141.42 [Kbytes/sec] received
-                        894.02 kb/s sent
-                        2035.44 kb/s total
+Total transferred:      10150000 bytes
+Total body sent:        8250000
+HTML transferred:       2150000 bytes
+Requests per second:    7724.42 [#/sec] (mean)
+Time per request:       129.459 [ms] (mean)
+Time per request:       0.129 [ms] (mean, across all concurrent requests)
+Transfer rate:          1531.31 [Kbytes/sec] received
+                        1244.66 kb/s sent
+                        2775.96 kb/s total
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    3   7.1      0      36
-Processing:     1   55  63.2     29     407
-Waiting:        1   53  61.4     28     399
-Total:          1   59  65.0     32     424
+Connect:        0   16 125.9      0    1028
+Processing:     7  111  21.7    115     360
+Waiting:        4  110  21.7    114     360
+Total:         22  128 128.5    116    1314
 
 Percentage of the requests served within a certain time (ms)
-  50%     32
-  66%     53
-  75%     77
-  80%     97
-  90%    147
-  95%    181
-  98%    282
-  99%    332
- 100%    424 (longest request)
+  50%    116
+  66%    123
+  75%    127
+  80%    130
+  90%    136
+  95%    143
+  98%    155
+  99%   1120
+ 100%   1314 (longest request)
