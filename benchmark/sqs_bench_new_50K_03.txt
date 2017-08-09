@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.3 <$Revision: 1757674 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8081
+
+Document Path:          /player/msg
+Document Length:        21 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   23.705 seconds
+Complete requests:      50000
+Failed requests:        0
+Total transferred:      9050000 bytes
+Total body sent:        8150000
+HTML transferred:       1050000 bytes
+Requests per second:    2109.27 [#/sec] (mean)
+Time per request:       474.099 [ms] (mean)
+Time per request:       0.474 [ms] (mean, across all concurrent requests)
+Transfer rate:          372.83 [Kbytes/sec] received
+                        335.75 kb/s sent
+                        708.58 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  109 408.4      0    3241
+Processing:    11  361 226.4    312    2578
+Waiting:       11  358 225.3    310    2578
+Total:         26  470 471.4    323    4947
+
+Percentage of the requests served within a certain time (ms)
+  50%    323
+  66%    372
+  75%    428
+  80%    494
+  90%   1110
+  95%   1339
+  98%   1774
+  99%   3303
+ 100%   4947 (longest request)
